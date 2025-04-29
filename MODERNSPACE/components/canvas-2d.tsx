@@ -1,6 +1,7 @@
 "use client"
 
 import type React from "react"
+
 import { useRef, useEffect, useState, forwardRef, useImperativeHandle } from "react"
 import type { FurnitureItem, CanvasType } from "@/types/types"
 
