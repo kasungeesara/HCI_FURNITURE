@@ -1,0 +1,160 @@
+import type { Product } from "@/types/product"
+
+export const products: Product[] = [
+  {
+    id: "modern-sofa",
+    name: "Modern Sofa",
+    description:
+      "A sleek and comfortable sofa with clean lines and premium upholstery. Perfect for contemporary living spaces.",
+    price: 1299.99,
+    oldPrice: 1499.99,
+    category: "Living Room",
+    image: "/placeholder.svg?height=500&width=500",
+    featured: true,
+    dimensions: {
+      width: "220 cm",
+      height: "85 cm",
+      depth: "95 cm",
+      weight: "45 kg",
+    },
+    materials: "Premium fabric upholstery, solid wood frame, high-density foam cushions",
+  },
+  {
+    id: "minimalist-coffee-table",
+    name: "Minimalist Coffee Table",
+    description:
+      "A minimalist coffee table with a tempered glass top and solid wood base. The perfect centerpiece for your living room.",
+    price: 499.99,
+    category: "Living Room",
+    image: "/placeholder.svg?height=500&width=500",
+    featured: true,
+    dimensions: {
+      width: "120 cm",
+      height: "45 cm",
+      depth: "60 cm",
+      weight: "25 kg",
+    },
+    materials: "Tempered glass, solid oak wood",
+  },
+  {
+    id: "ergonomic-office-chair",
+    name: "Ergonomic Office Chair",
+    description:
+      "An ergonomic office chair designed for maximum comfort during long work sessions. Features adjustable height, armrests, and lumbar support.",
+    price: 349.99,
+    oldPrice: 399.99,
+    category: "Office",
+    image: "/placeholder.svg?height=500&width=500",
+    featured: true,
+    dimensions: {
+      width: "65 cm",
+      height: "110-120 cm",
+      depth: "65 cm",
+      weight: "15 kg",
+    },
+    materials: "Breathable mesh fabric, aluminum base, high-density foam",
+  },
+  {
+    id: "scandinavian-dining-table",
+    name: "Scandinavian Dining Table",
+    description:
+      "A beautiful Scandinavian-inspired dining table made from solid oak. Seats up to 6 people comfortably.",
+    price: 899.99,
+    category: "Dining",
+    image: "/placeholder.svg?height=500&width=500",
+    featured: false,
+    dimensions: {
+      width: "180 cm",
+      height: "75 cm",
+      depth: "90 cm",
+      weight: "40 kg",
+    },
+    materials: "Solid oak wood, natural oil finish",
+  },
+  {
+    id: "platform-bed-frame",
+    name: "Platform Bed Frame",
+    description:
+      "A modern platform bed frame with a padded headboard. Provides excellent support for your mattress without the need for a box spring.",
+    price: 799.99,
+    category: "Bedroom",
+    image: "/placeholder.svg?height=500&width=500",
+    featured: true,
+    dimensions: {
+      width: "160 cm",
+      height: "100 cm",
+      depth: "210 cm",
+      weight: "50 kg",
+    },
+    materials: "Solid wood frame, upholstered headboard, steel supports",
+  },
+  {
+    id: "accent-armchair",
+    name: "Accent Armchair",
+    description:
+      "A stylish accent armchair that adds character to any room. Features comfortable cushioning and elegant design.",
+    price: 449.99,
+    category: "Living Room",
+    image: "/placeholder.svg?height=500&width=500",
+    featured: false,
+    dimensions: {
+      width: "75 cm",
+      height: "85 cm",
+      depth: "80 cm",
+      weight: "20 kg",
+    },
+    materials: "Premium fabric upholstery, solid wood legs",
+  },
+  {
+    id: "floating-shelves",
+    name: "Floating Shelves Set",
+    description:
+      "A set of three floating shelves in varying sizes. Perfect for displaying books, plants, and decorative items.",
+    price: 129.99,
+    category: "Living Room",
+    image: "/placeholder.svg?height=500&width=500",
+    featured: false,
+    dimensions: {
+      width: "60/80/100 cm",
+      height: "5 cm",
+      depth: "20 cm",
+      weight: "8 kg",
+    },
+    materials: "Solid wood, hidden mounting brackets",
+  },
+  {
+    id: "storage-ottoman",
+    name: "Storage Ottoman",
+    description:
+      "A versatile storage ottoman that serves as extra seating, a footrest, or a coffee table. Includes hidden storage space.",
+    price: 199.99,
+    category: "Living Room",
+    image: "/placeholder.svg?height=500&width=500",
+    featured: false,
+    dimensions: {
+      width: "80 cm",
+      height: "45 cm",
+      depth: "80 cm",
+      weight: "15 kg",
+    },
+    materials: "Faux leather upholstery, wooden frame, high-density foam",
+  },
+  {
+    id: "standing-desk",
+    name: "Adjustable Standing Desk",
+    description:
+      "An adjustable standing desk that allows you to switch between sitting and standing positions. Features electric height adjustment.",
+    price: 599.99,
+    oldPrice: 699.99,
+    category: "Office",
+    image: "/placeholder.svg?height=500&width=500",
+    featured: true,
+    dimensions: {
+      width: "140 cm",
+      height: "70-120 cm",
+      depth: "70 cm",
+      weight: "35 kg",
+    },
+    materials: "Engineered wood top, steel frame, electric motor",
+  },
+]
