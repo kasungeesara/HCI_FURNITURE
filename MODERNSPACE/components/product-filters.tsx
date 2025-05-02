@@ -54,9 +54,9 @@ export default function ProductFilters() {
             <div className="space-y-2">
               {categories.map((category) => (
                 <div key={category.id} className="flex items-center space-x-2">
-                  <Checkbox id={category-${category.id}} />
+                  <Checkbox id={`category-${category.id}`} />
                   <Label
-                    htmlFor={category-${category.id}}
+                    htmlFor={`category-${category.id}`}
                     className="text-sm font-normal"
                   >
                     {category.label}
@@ -97,9 +97,9 @@ export default function ProductFilters() {
             <div className="space-y-2">
               {materials.map((material) => (
                 <div key={material.id} className="flex items-center space-x-2">
-                  <Checkbox id={material-${material.id}} />
+                  <Checkbox id={`material-${material.id}`} />
                   <Label
-                    htmlFor={material-${material.id}}
+                    htmlFor={`material-${material.id}`}
                     className="text-sm font-normal"
                   >
                     {material.label}
@@ -122,7 +122,7 @@ export default function ProductFilters() {
                   className="flex flex-col items-center space-y-1"
                 >
                   <button
-                    className={h-6 w-6 rounded-full ${color.color} border border-gray-700 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-900}
+                    className={`h-6 w-6 rounded-full ${color.color} border border-gray-700 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-900`}
                     title={color.label}
                   />
                   <span className="text-xs">{color.label}</span>
